@@ -6,7 +6,7 @@ import services.authorization.AuthorizationService;
 
 
 // Создаём публичный клаас Авторизация (Authorization)
-public class Authorization {
+public class Authtorization {
 
   private final AuthorizationService authorizationService = new AuthorizationService();
   private final AuthorizationPage authorizationPage = new AuthorizationPage();
