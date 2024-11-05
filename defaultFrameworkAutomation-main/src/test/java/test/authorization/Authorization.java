@@ -8,7 +8,6 @@ import services.authorization.AuthorizationService;
 // Создаём публичный клаас Авторизация (Authorization)
 public class Authorization {
 
-// Создаём два новых неизменяемых объекта импортированных классов
   private final AuthorizationService authorizationService = new AuthorizationService();
   private final AuthorizationPage authorizationPage = new AuthorizationPage();
 
