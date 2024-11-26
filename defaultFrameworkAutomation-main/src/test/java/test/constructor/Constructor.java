@@ -1,4 +1,4 @@
-package test.authorization;
+package test.constructor;
 
 public class Constructor {
 }
