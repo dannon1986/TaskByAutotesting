@@ -13,6 +13,7 @@ public class AuthorizationPage {
   private final By ENTER_BUTTON = By.xpath("//button[contains(text(), 'Войти')]");
   private final By LINK_REGISTER = By.xpath("//a[contains(text(), 'Зарегистрироваться')]");
   private final By LINK_FORGOT_PASSWORD = By.xpath("//a[contains(text(), 'Восстановить пароль')]");
+  private final By EXPECTED_TEXT = By.xpath("//p[@class='common_error__2wD2J text text_type_main-default pb-6']");
 
   public SelenideElement getEmail() {
     return element(EMAIL);
@@ -41,4 +42,6 @@ public class AuthorizationPage {
   public SelenideElement getLinkForgotPassword() {
     return element(LINK_FORGOT_PASSWORD);
   }
+
+  public SelenideElement getExpectedText() {return element(EXPECTED_TEXT); }
 }
